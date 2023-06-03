@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
+import { PraceDodatkoweComponent } from './prace-dodatkowe/prace-dodatkowe.component';
+
 import { ClientsComponent } from './clients/clients.component';
 import { ClientsDetailComponent } from './clients-detail/clients-detail.component';
 
@@ -14,6 +16,7 @@ import { ClientsDetailComponent } from './clients-detail/clients-detail.componen
   declarations: [
     AppComponent,
     StartComponent,
+    PraceDodatkoweComponent,
     ClientsComponent,
     ClientsDetailComponent
   ],
