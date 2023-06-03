@@ -1,0 +1,8 @@
+
+<div *ngIf="!dane">Trwa ładowanie danych</div>
+
+<div *ngIf="dane">
+    <ul>
+      <li *ngFor="let d of dane" routerLink="/produkt/{{d.id}}">{{d.nazwa}}</li>
+    </ul>
+</div>

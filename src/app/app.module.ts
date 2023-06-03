@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
+import { ProduktyComponent } from './produkty/produkty.component';
+import { ProduktComponent } from './produkt/produkt.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    ProduktyComponent,
+    ProduktComponent
   ],
   imports: [
     BrowserModule,
