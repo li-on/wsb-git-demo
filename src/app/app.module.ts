@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
+import { ClientsComponent } from './clients/clients.component';
+import { ClientsDetailComponent } from './clients-detail/clients-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    ClientsComponent,
+    ClientsDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<h2>Klienci</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nr</th>
+      <th scope="col">Imię i nazwisko</th>
+      <th scope="col">Miasto</th>
+      <th scope="col">Data</th>
+      <th scope="col">Województwo</th>
+      <th scope="col">Opiekun</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let client of clients">
+      <td>{{client.id}}</td>
+      <td>{{client.name}}</td>
+      <td>{{client.city}}</td>
+      <td>{{client.date}}</td>
+      <td>{{client.province}}</td>
+      <td>{{client.buddy}}</td>
+    </tr>
+  </tbody>
+</table>
