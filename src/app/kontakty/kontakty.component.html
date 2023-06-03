@@ -1,0 +1,29 @@
+<h1>kontakty</h1>
+<ul>
+  <li *ngFor="let kontakt of kontakty">
+    <h3>{{kontakt.imie + " " + kontakt.nazwisko | uppercase}} </h3>
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Edytuj imię: </label>
+        <input type="text" class="form-control" id="formGroupExampleInput" [(ngModel)]="kontakt.imie">
+      </div>
+      <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">Edytuj nazwisko:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2"  [(ngModel)]="kontakt.nazwisko">
+      </div>
+
+      <button type="button" class="btn" (click)="onClickOpis()">Info</button>
+      <button type="button" class="btn" (click)="onClickFoto()">Zdjęcie</button>
+
+    <div *ngIf="opis">
+        <span>{{kontakt.mail}}</span><br>
+        <span>{{kontakt.telefon}}</span><br>
+        <span>{{kontakt.funkcja}}</span><br>
+    </div>
+
+      <div *ngIf="foto"><img width=100px src="{{kontakt.zdjecie}}"></div>
+
+  </li>
+
+</ul>
+
+
