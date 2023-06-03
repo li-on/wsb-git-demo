@@ -1,0 +1,16 @@
+<table>
+    <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let klient of klienci" (click)="onKlientClick(klient)">
+        <td>{{ klient.idkKlienta }}</td>
+        <td>{{ klient.nazwaKlienta }}</td>
+        <td>{{ klient.dataZawarcia }}</td>
+        <td>{{ klient.dataZakonczenia }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
