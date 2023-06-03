@@ -12,9 +12,15 @@ export class KontaktyComponent {
 kontakty = KONTAKTY;
 
 opis = false
-onClick(){
+onClickOpis(){
 this.opis= !this.opis
 }
+
+foto = false
+onClickFoto(){
+this.foto= !this.foto
+}
+
 }
 
 

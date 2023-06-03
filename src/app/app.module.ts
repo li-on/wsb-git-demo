@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
 import { KontaktyComponent } from './kontakty/kontakty.component';
+import { JedenKontaktComponent } from './jeden-kontakt/jeden-kontakt.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { KontaktyComponent } from './kontakty/kontakty.component';
     AppComponent,
     StartComponent,
     KontaktyComponent,
+    JedenKontaktComponent,
   ],
   imports: [
     BrowserModule,

@@ -26,7 +26,7 @@ export const KONTAKTY: Kontakt[] = [
     funkcja: "Scrum Master",
     zdjecie: "https://www.shutterstock.com/image-vector/man-icon-sign-design-600w-585980324.jpg", },
 
-    { id: 3,
+    { id: 4,
     imie: "Janusz",
     nazwisko: "Jones",
     telefon: "333 666 666",
@@ -34,7 +34,7 @@ export const KONTAKTY: Kontakt[] = [
     funkcja: "Manager",
     zdjecie: "https://www.shutterstock.com/image-vector/pictogram-head-question-mark-john-600w-171638717.jpg", },
 
-    { id: 3,
+    { id: 5,
     imie: "Zusia",
     nazwisko: "Doe",
     telefon: "555 666 666",
