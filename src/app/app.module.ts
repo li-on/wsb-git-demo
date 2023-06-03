@@ -6,12 +6,16 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
+import { KorespondencjaComponent } from './korespondencja/korespondencja.component';
+
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
+    KorespondencjaComponent,
     AppComponent,
     StartComponent
+
   ],
   imports: [
     BrowserModule,
