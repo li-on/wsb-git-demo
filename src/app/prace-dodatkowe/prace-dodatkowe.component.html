@@ -1,0 +1,41 @@
+<h2>Prace dodatkowe</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID zgłoszenia z systemu obsługi</th>
+      <th>Podsystem</th>
+      <th>Nazwa z oferty</th>
+      <th>Data zamówienia</th>
+      <th>Data realizacji</th>
+      <th>Data odbioru</th>
+      <th>Liczba godzin sprzedanych</th>
+      <th>Liczba godzin wykonanych</th>
+      <th>Kwota netto</th>
+      <th>Aktywność</th>
+      <th>Miesiąc rozliczenia</th>
+      <th>Kwartał</th>
+      <th>Rok</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let praca of praceDodatkowe">
+        <td>{{ praca.id }}</td>
+      <td>{{ praca.podsystem }}</td>
+      <td>{{ praca.nazwaOferty }}</td>
+      <td>{{ praca.dataZamowienia }}</td>
+      <td>{{ praca.dataRealizacji }}</td>
+      <td>{{ praca.dataOdbioru }}</td>
+      <td>{{ praca.liczbaGodzinSprzedanych }}</td>
+      <td>{{ praca.liczbaGodzinWykonanych }}</td>
+      <td>{{ praca.kwotaNetto }}</td>
+      <td>{{ praca.aktywnosc }}</td>
+      <td>{{ praca.miesiacRozliczenia }}</td>
+      <td>{{ praca.kwartal }}</td>
+      <td>{{ praca.rok }}</td>
+    
+    </tr>
+  </tbody>
+</table>
+
+
