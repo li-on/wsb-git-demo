@@ -1,1 +1,18 @@
-@import "bootstrap/scss/bootstrap";
+h2 {
+  text-transform: uppercase;
+  color: #333;
+  margin: 10px;
+}
+
+label {
+  font-size: 24px;
+  margin: 10px;
+}
+
+input {
+  border-radius: 8px;
+}
+
+.btn {
+  margin: 0 10%;
+}

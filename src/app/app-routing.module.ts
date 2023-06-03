@@ -5,8 +5,8 @@ import { ClientsComponent } from './clients/clients.component';
 import { ClientsDetailComponent } from './clients-detail/clients-detail.component';
 
 const routes: Routes = [
-  { path: '**', component: ClientsComponent },
   { path: 'dodaj', component: ClientsDetailComponent },
+  { path: '**', component: ClientsComponent },
 ];
 
 @NgModule({
