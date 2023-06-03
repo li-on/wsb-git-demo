@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule } from '@angular/forms';
+import { UmowyTableComponent } from './umowy-table/umowy-table.component';
+import { TabelaUmowComponent } from './tabela-umow/tabela-umow.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    UmowyTableComponent,
+    TabelaUmowComponent
   ],
   imports: [
     BrowserModule,
