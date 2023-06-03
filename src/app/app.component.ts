@@ -5,11 +5,9 @@ import { TabelaUmowComponent } from './tabela-umow/tabela-umow.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  declarations: [UmowyTableComponent],
-  declarations: [TabelaUmowComponent]
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'wsb-git-demo';
-  isMenuCollapsed = true;
+  isMenuCollapsed = false;
 }

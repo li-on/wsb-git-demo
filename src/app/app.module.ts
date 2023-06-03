@@ -25,7 +25,7 @@ import { ClientsDetailComponent } from './clients-detail/clients-detail.componen
     KontaktyComponent,
     JedenKontaktComponent,
     UmowyTableComponent,
-    TabelaUmowComponent
+    TabelaUmowComponent,
     DefinicjeComponent,
     PraceDodatkoweComponent,
     ClientsComponent,

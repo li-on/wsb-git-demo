@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-umowa-form',
-  templateUrl: './umowa-form.component.html',
-  styleUrls: ['./umowa-form.component.scss']
+  selector: 'app-umowa-table',
+  templateUrl: './umowy-table.component.html',
+  styleUrls: ['./umowy-table.component.scss']
 })
-export class UmowaFormComponent {
+export class UmowyTableComponent {
   umowaForm: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {

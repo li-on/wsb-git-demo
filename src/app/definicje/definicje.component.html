@@ -1,0 +1,44 @@
+
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+	<table>
+	  <tr>
+		<td><label for="teczkaFinansowa">Teczka finansowa:</label></td>
+		<td><input type="text" id="teczkaFinansowa" formControlName="teczkaFinansowa" placeholder="Teczka finansowa"></td>
+	  </tr>
+	  <tr>
+		<td><label for="dataOd">Data od:</label></td>
+		<td><input type="text" id="dataOd" formControlName="dataOd" placeholder="Data od"></td>
+	  </tr>
+	  <tr>
+		<td><label for="dataDo">Data do:</label></td>
+		<td><input type="text" id="dataDo" formControlName="dataDo" placeholder="Data do"></td>
+	  </tr>
+	  <tr>
+		<td><label for="godzinyPracySerwisu">Godziny pracy serwisu:</label></td>
+		<td><input type="text" id="godzinyPracySerwisu" formControlName="godzinyPracySerwisu" placeholder="Godziny pracy serwisu"></td>
+	  </tr>
+	  <tr>
+		<td><label for="dniObslugi">Dni obsługi:</label></td>
+		<td><input type="text" id="dniObslugi" formControlName="dniObslugi" placeholder="Dni obsługi"></td>
+	  </tr>
+	  <tr>
+		<td><label for="definicjaBleduKrytycznego">Definicja błędu krytycznego:</label></td>
+		<td><input type="text" id="definicjaBleduKrytycznego" formControlName="definicjaBleduKrytycznego" placeholder="Definicja błędu krytycznego"></td>
+	  </tr>
+	  <tr>
+		<td><label for="czasReakcjiBleduKrytycznego">Czas reakcji na błąd krytyczny:</label></td>
+		<td><input type="text" id="czasReakcjiBleduKrytycznego" formControlName="czasReakcjiBleduKrytycznego" placeholder="Czas reakcji na błąd krytyczny"></td>
+	  </tr>
+	  <tr>
+		<td><label for="czasRealizacjiBleduKrytycznego">Czas realizacji błędu krytycznego:</label></td>
+		<td><input type="text" id="czasRealizacjiBleduKrytycznego" formControlName="czasRealizacjiBleduKrytycznego" placeholder="Czas realizacji błędu krytycznego"></td>
+	  </tr>
+	  <tr>
+		<td><label for="karaZaDzienOpoznienia">Kara za dzień opóźnienia:</label></td>
+		<td><input type="text" id="karaZaDzienOpoznienia" formControlName="karaZaDzienOpoznienia" placeholder="Kara za dzień opóźnienia"></td>
+	  </tr>
+	</table>
+
+	<button type="submit">Submit</button>
+  </form>

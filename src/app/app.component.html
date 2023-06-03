@@ -7,7 +7,7 @@
       </svg>
     </a>
 
-    <a class="navbar-brand" href="#">Demo</a>
+    <a class="navbar-brand" href="#">CRM</a>
 
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
       &#9776;
@@ -16,16 +16,25 @@
     <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link fw-bold" routerLink="start">Start</a>
+          <a class="nav-link fw-bold" routerLink="/">Klienci</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold" routerLink="korespondencja">Korespondencja</a>
+          <a class="nav-link fw-bold" routerLink="/korespondencja">Korespondencja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/dodatkowe">Prace dodatkowe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/sla">SLA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" routerLink="/umowy">Umowy</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <div class="container-fluid">
-  
+
   <router-outlet></router-outlet>
 </div>

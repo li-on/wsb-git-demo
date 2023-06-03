@@ -5,7 +5,7 @@ import { MOCK_KLIENCI, MOCK_KLIENCI_HEADERS, MOCK_KLIENCI_COLUMNS } from '../moc
 @Component({
   selector: 'app-tabela-umow',
   templateUrl: './tabela-umow.component.html',
-  styleUrls: ['./tabela-umow.component.css']
+  styleUrls: ['./tabela-umow.component.scss']
 })
 export class TabelaUmowComponent {
   klienci: Klient[] = MOCK_KLIENCI;
