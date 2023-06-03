@@ -8,15 +8,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StartComponent } from './start/start.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DefinicjeComponent } from './definicje/definicje.component';
-
-
-
+import { PraceDodatkoweComponent } from './prace-dodatkowe/prace-dodatkowe.component';
+import { ClientsComponent } from './clients/clients.component';
+import { ClientsDetailComponent } from './clients-detail/clients-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
     DefinicjeComponent,
+    PraceDodatkoweComponent,
+    ClientsComponent,
+    ClientsDetailComponent
   ],
   imports: [
     BrowserModule,
