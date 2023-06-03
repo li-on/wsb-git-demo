@@ -12,12 +12,15 @@
   </thead>
   <tbody>
     <tr *ngFor="let client of clients">
-      <td>{{client.id}}</td>
-      <td>{{client.name}}</td>
-      <td>{{client.city}}</td>
-      <td>{{client.date}}</td>
-      <td>{{client.province}}</td>
-      <td>{{client.buddy}}</td>
+      <td>{{ client.id }}</td>
+      <td>{{ client.name }}</td>
+      <td>{{ client.city }}</td>
+      <td>{{ client.date }}</td>
+      <td>{{ client.province }}</td>
+      <td>{{ client.buddy }}</td>
     </tr>
   </tbody>
 </table>
+<button class="btn btn-secondary" routerLink="/dodaj">
+  Dodaj nowego klienta
+</button>

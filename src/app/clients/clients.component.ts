@@ -7,5 +7,8 @@ import { CLIENTS } from '../mock-clients';
   styleUrls: ['./clients.component.scss'],
 })
 export class ClientsComponent {
+addClient() {
+throw new Error('Method not implemented.');
+}
   clients = CLIENTS;
 }
