@@ -4,9 +4,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 @Component({
   selector: 'app-umowa-form',
   templateUrl: './umowa-form.component.html',
-  styleUrls: ['./umowa-form.component.scss']
+  styleUrls: ['./umowa-form.component.css']
 })
-export class UmowaFormComponent {
+export class UmowyTableComponent {
   umowaForm: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
