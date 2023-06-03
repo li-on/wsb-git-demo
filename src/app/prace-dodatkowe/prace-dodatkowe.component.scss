@@ -1,0 +1,42 @@
+h2, table{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: #609eee;
+}
+table {
+  margin-bottom: 100px;
+  width: 90vw;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+thead th {
+  background-color: #609eee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #e2e2e2;
+}
+
+
+
+
+
+
