@@ -1,0 +1,24 @@
+<h1>kontakty</h1>
+<ul>
+  <li *ngFor="let kontakt of kontakty">
+    <h2>{{kontakt.imie + " " + kontakt.nazwisko | uppercase}} </h2>
+    <div>
+        <label>Edytuj imię: </label>
+        <input [(ngModel)]="kontakt.imie">
+      </div>
+      <div>
+        <label>Edytuj nazwisko: </label>
+        <input [(ngModel)]="kontakt.nazwisko">
+      </div>
+    <button (click)="onClick()"> szczegóły </button>
+    <div *ngIf="opis">
+        <span>{{kontakt.telefon}}</span><br>
+        <span>{{kontakt.funkcja}}</span><br>
+    </div>
+
+      <img width=100px src="{{kontakt.zdjecie}}">
+  </li>
+</ul>
+
+
+
